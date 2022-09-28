@@ -1,0 +1,31 @@
+.header {
+    --ion-background-color: #755eac;
+    height: 100px;
+}
+  
+.bkgrd {
+    --ion-background-color: #523697;
+}
+
+.instructions {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: larger;
+    padding: 15px;
+}
+
+.purpleButton {
+    --background: #462e80;
+}
+
+.tealButton {
+    --background: #2DC4CD;
+}
+
+.fuschiaButton {
+    --background: #CD2D9F;
+}
+
+.link {
+    color: yellow;
+}

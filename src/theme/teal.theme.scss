@@ -1,0 +1,22 @@
+ion-header,
+ion-toolbar,
+ion-content,
+ion-item,
+ion-input,
+ion-grid {
+	--ion-color-teal: #2DC4CD;
+	--ion-color-teal-rgb: 45,196,205;
+	--ion-color-teal-contrast: #000000;
+	--ion-color-teal-contrast-rgb: 0,0,0;
+	--ion-color-teal-shade: #28acb4;
+	--ion-color-teal-tint: #42cad2;
+}
+
+.ion-color-teal {
+	--ion-color-base: var(--ion-color-teal);
+	--ion-color-base-rgb: var(--ion-color-teal-rgb);
+	--ion-color-contrast: var(--ion-color-teal-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-teal-contrast-rgb);
+	--ion-color-shade: var(--ion-color-teal-shade);
+	--ion-color-tint: var(--ion-color-teal-tint);
+}

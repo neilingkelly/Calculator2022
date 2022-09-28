@@ -1,0 +1,25 @@
+<ion-header collapse="condense">
+  <ion-toolbar class="header">
+    <ion-buttons slot="start">
+      <ion-menu-button auto-hide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Customize</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="bkgrd">
+  <p class="instructions">Choose a color theme:</p>
+  <br>
+  <br>
+  <ion-list>
+    <ion-button class="purpleButton" expand="block" (click)="PurpleTheme()">Purple (default)</ion-button>
+    <ion-button class="tealButton" expand="block" (click)="TealTheme()">Teal</ion-button>
+    <ion-button class="fuschiaButton" expand="block" (click)="FuschiaTheme()">Fuschia</ion-button>
+  </ion-list>
+  <br>
+  <br>
+  <br>
+  <div align="center">
+    <a href="/home" class="link">Return Home</a>
+  </div>
+</ion-content>

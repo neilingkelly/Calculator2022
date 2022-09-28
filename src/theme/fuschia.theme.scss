@@ -1,0 +1,17 @@
+:root {
+	--ion-color-fuschia: #CD2D9F;
+	--ion-color-fuschia-rgb: 205,45,159;
+	--ion-color-fuschia-contrast: #ffffff;
+	--ion-color-fuschia-contrast-rgb: 255,255,255;
+	--ion-color-fuschia-shade: #b4288c;
+	--ion-color-fuschia-tint: #d242a9;
+}
+
+.ion-color-fuschia {
+	--ion-color-base: var(--ion-color-fuschia);
+	--ion-color-base-rgb: var(--ion-color-fuschia-rgb);
+	--ion-color-contrast: var(--ion-color-fuschia-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-fuschia-contrast-rgb);
+	--ion-color-shade: var(--ion-color-fuschia-shade);
+	--ion-color-tint: var(--ion-color-fuschia-tint);
+}
